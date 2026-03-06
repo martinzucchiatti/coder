@@ -1,0 +1,15 @@
+
+//sin parametros
+@mixin flex{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+//con/sin parametros
+
+@mixin imagen{
+    width: $ancho;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,7 @@
+@use "base/reset";
+//productos
+@use "pages/productos";
+//mq-tablet
+@use "utilities/mixin";
+//celular
+@use "layout/celular";

@@ -1,0 +1,133 @@
+@use "../utilities/variables" as *;
+
+@use "../utilities/mixin" as *;
+
+/*  */
+@media (max-width: 576px) {
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 80px;
+        margin-bottom: 10px;
+    }
+
+nav{
+    margin: auto;
+}
+
+    nav ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.contenedor{
+
+    img{
+        height: 300px;
+    }
+
+    .textoo{
+        font-size: 1px;
+        width: 10%;
+    }
+
+    .btn-sumarse{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+    .planes{
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 20px;
+
+    .card{
+        width: 90%;
+        padding: 25px;
+    }
+
+    .precio{
+        font-size: 40px;
+    }
+}
+
+    #actividades{
+
+    padding: 60px 20px;
+
+    .grid{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .columna{
+        width: 100%;
+    }
+
+    .actividad{
+
+        img{
+        width: 40px;
+    }
+
+    h4{
+        font-size: 16px;
+    }
+
+    p{
+            font-size: 14px;
+        }
+    }
+}
+
+    .nosotros-section{
+
+    padding: 80px 20px;
+
+    .contenedor-nosotros{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagen img{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .textos{
+        padding: 30px;
+        max-width: 100%;
+    }
+}
+
+    .contacto{
+
+    .form-container{
+        width: 90%;
+    }
+}
+
+    footer{
+
+    padding: 40px 20px;
+
+    .footer-container{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-bottom{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+}
