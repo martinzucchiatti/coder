@@ -40,8 +40,8 @@ main {
 
 /* HERO */
 .contenedor {
+  position: relative;
   width: 100%;
-  height: 100%;
 }
 .contenedor img {
   width: 100%;
@@ -49,13 +49,26 @@ main {
   object-fit: cover;
 }
 
-.textoo {
+.texto {
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(20, 19, 19);
   text-align: center;
+  color: white;
+}
+
+.btn-sumarse {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 89, 0);
+  color: white;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .naranja {
