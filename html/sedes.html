@@ -36,7 +36,7 @@
     <p><strong>¡Nosotros te asesoramos!</strong><br>
     Dejanos tus datos y te contactamos para más info.</p>
 
-    <form>
+    <form id="contactForm">
         <label for="nombre"></label>
         <input id="nombre" type="text" placeholder="Nombre">
 
@@ -60,6 +60,7 @@
         <textarea id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
 
         <button type="submit">Enviar</button>
+        <p id="mensajeEstado"></p>
     </form>
 </div>
 
@@ -111,6 +112,7 @@
     </div>
 
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../contacto.js"></script>
 </body>
 </html>

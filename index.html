@@ -1,26 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Tu CSS -->
-    <link rel="stylesheet" href="./css/main.css">
-
     <title>GymStarFit</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
 <header class="header">
-
     <div class="logo">
         <img src="./img/starlogo.png" alt="logo" class="logo">
     </div>
-
     <nav>
         <ul>
             <li><a href="./html/clean.html">PLANES</a></li>
@@ -28,29 +22,24 @@
             <li><a href="./html/sedes.html">CONTACTO</a></li>
         </ul>
     </nav>
-
 </header>
 
 <main>
+    <section class="hero">
+        <div class="contenedor">
+            <img src="./img/pesomuerto.jpg" alt="Peso muerto">
+        </div>
+        <div class="texto">
+            <h1 class="naranja">Sumate a la revolucion</h1>
+            <h2>¡HORA DE TRANSFORMAR TU CUERPO, MENTE Y ESTILO DE VIDA!</h2>
+        </div>
+        <div>
+            <ul class="empezar">
+                <li><a href="./html/clean.html" class="btn btn-sumarse">QUIERO SUMARME</a></li>
+            </ul>
+        </div>
+    </section>
 
-<nav>
-    <div class="contenedor">
-        <img src="./img/pesomuerto.jpg" alt="Peso muerto">
-    </div>
-
-    <div class="texto">
-        <h1 class="naranja">Sumate a la revolucion</h1>
-        <h2>¡HORA DE TRANSFORMAR TU CUERPO, MENTE Y ESTILO DE VIDA!</h2>
-    </div>
-    
-    <div>
-        <ul class="empezar">
-            <li><a href="./html/clean.html" class="btn btn-sumarse" >QUIERO SUMARME</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- PLANES -->
 <section class="planes container">
 
 <div class="row">
@@ -110,126 +99,45 @@
 </div>
 </section>
 
-<!-- ACTIVIDADES -->
-<section id="actividades">
-
-    <div class="overlay"></div>
-
-    <div class="contenido">
-
-        <div class="titulo">
+    <section id="actividades" class="container mt-5">
+        <div class="titulo text-center">
             <h3>ACTIVIDADES</h3>
             <h2>¡ELEGÍ LA TUYA!</h2>
         </div>
+        
+        <div class="grid" id="contenedor-actividades"></div>
 
-        <div class="grid">
-
-            <div class="columna">
-
-                <div class="actividad">
-                    <img src="./img/zumba-150x150.png" alt="">
-                    <div>
-                        <h4>ZUMBA</h4>
-                        <p>Un entrenamiento que combina baile y ejercicios aeróbicos para mejorar la salud cardiovascular, aumentar la resistencia y quemar calorías.</p>
-                    </div>
-                </div>
-
-                <div class="actividad">
-                    <img src="./img/sentadillas-150x150.png" alt="">
-                    <div>
-                        <h4>GAP</h4>
-                        <p>Rutina de tonificación enfocada en fortalecer glúteos, abdomen y piernas.</p>
-                    </div>
-                </div>
-
-                <div class="actividad">
-                    <img src="./img/jump-150x150.png" alt="">
-                    <div>
-                        <h4>JUMP</h4>
-                        <p>Clases llenas de energía enfocadas en mejorar la resistencia cardiovascular.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="columna">
-
-                <div class="actividad">
-                    <img src="./img/yoga-150x150.png" alt="">
-                    <div>
-                        <h4>YOGA</h4>
-                        <p>Equilibrá tu cuerpo y mente con esta práctica que mejora la flexibilidad y reduce el estrés.</p>
-                    </div>
-                </div>
-
-                <div class="actividad">
-                    <img src="./img/cross-150x150.png" alt="">
-                    <div>
-                        <h4>CROSS QIVOX</h4>
-                        <p>Combinación de ejercicios de alta intensidad con movimientos funcionales.</p>
-                    </div>
-                </div>
-
-                <div class="actividad">
-                    <img src="./img/hit-150x150.png" alt="">
-                    <div>
-                        <h4>HIIT</h4>
-                        <p>Entrenamiento por intervalos que alterna esfuerzo máximo con pausas breves.</p>
-                    </div>
-                </div>
-
-            </div>
-
+        <div class="text-center mt-4">
+            <button id="load-more" class="btn btn-primary">Ver más actividades</button>
         </div>
-
-    </div>
-
-</section>
-
+    </section>
 </main>
 
 <footer class="footer">
-
     <div class="footer-container">
-
         <div class="footer-col">
             <img src="./img/starlogo.png" alt="Logo" class="footer-logo">
-
             <p>Estudio Integral S.F.C.</p>
-            <p>20-45809547-2</p>
-
             <div class="footer-contact">
                 <p>📞 (+54) 351 1111111</p>
                 <p>✉️ contactenos@starfit.com.ar</p>
             </div>
         </div>
-
         <div class="footer-col">
             <h3>LINKS DEL SITIO</h3>
             <ul>
                 <li><a href="#">Planes</a></li>
                 <li><a href="#">Sedes</a></li>
                 <li><a href="#">Actividades</a></li>
-                <li><a href="#">Clase de prueba</a></li>
-                <li><a href="#">Franquicia</a></li>
-                <li><a href="#">Trabajá con nosotros</a></li>
             </ul>
         </div>
-
     </div>
-
     <div class="footer-bottom">
-        <p>Copyright © 2026 – GymStarFit. Todos los derechos reservados.</p>
-
-        <div class="socials">
-            <ul>
-                <li><a href="https://www.instagram.com/martin.1z/"><img src="./img/icons8-instagram-50.png" alt="IG"></a></li>
-                <li><a href="https://www.facebook.com/"><img src="./img/icons8-facebook-logo-50.png" alt="FB"></a></li>
-            </ul>
-        </div>
+        <p>Copyright © 2026 – GymStarFit.</p>
     </div>
-
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="script.js"></script>
 </body>
 </html>

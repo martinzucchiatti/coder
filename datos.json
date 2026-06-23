@@ -1,0 +1,8 @@
+[
+    {"id": 1, "nombre": "ZUMBA", "descripcion": "Un entrenamiento que combina baile y ejercicios aeróbicos para mejorar la salud cardiovascular, aumentar la resistencia y quemar calorías.", "img": "./img/zumba-150x150.png"},
+    {"id": 2, "nombre": "GAP", "descripcion": "Rutina de tonificación enfocada en fortalecer glúteos, abdomen y piernas.", "img": "./img/sentadillas-150x150.png"},
+    {"id": 3, "nombre": "JUMP", "descripcion": " Clases llenas de energía enfocadas en mejorar la resistencia cardiovascular.", "img": "./img/jump-150x150.png"},
+    {"id": 4, "nombre": "YOGA", "descripcion": "Equilibrá tu cuerpo y mente con esta práctica que mejora la flexibilidad y reduce el estrés.", "img": "./img/yoga-150x150.png"},
+    {"id": 5, "nombre": "CROSS QIVOX", "descripcion": "combinación de ejercicios de alta intensidad con movimientos funcionales.", "img": "./img/cross-150x150.png"},
+    {"id": 6, "nombre": "HIIT", "descripcion": " Entrenamiento por intervalos que alterna esfuerzo máximo con pausas breves.", "img": "./img/hit-150x150.png"}
+]
